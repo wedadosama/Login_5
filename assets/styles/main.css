@@ -1,0 +1,87 @@
+ل* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --black: black;
+  --palm-leaf: #779341;
+  --philippine-gray: #8d8d8d;
+}
+body {
+  font-family: "Poppins", serif;
+  background-image: url(../images/bg.webp);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  padding: 0 15px;
+  margin: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+header {
+  padding: 31px 0;
+}
+header a {
+  font-size: 25px;
+  font-weight: 600;
+  color: var(--black);
+}
+.sign-in-container{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.sign-in .sign-in-container{
+  width: 539px;
+  padding: 44px;
+  background-color: rgb(255 255 255 / 0.75);
+  border-radius: 40px;
+}
+.sign-in .sign-in-container .heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sign-in .heading .welcome-message {
+  font-size: 21px;
+  font-weight: 400;
+}
+.sign-in .heading .welcome-message span{
+  font-weight: 600;
+  color: var(--palm-leaf);
+}
+.sign-in .heading .no-have-account{
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--philippine-gray);
+
+}
+.sign-in .heading .no-have-account a{
+  color: var(--palm-leaf);
+}
+.sign-in h1{
+  font-size: 55px;
+  font-weight: 500;
+  color: var(--black);
+ 
+}
+ 
